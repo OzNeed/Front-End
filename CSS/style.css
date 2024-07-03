@@ -1,0 +1,8 @@
+/* o sinal de > e para atacar somente o elemento dentro do ID*/
+#div1 > h1{
+    color: aqua;
+}
+
+#div2 > h1{
+    color:orange
+}

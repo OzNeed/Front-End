@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Aqui só a tag div que está especificando dentro da calsse menu
+div.menu{
+    width: 400px;
+}*/
+a{
+    text-decoration: none;
+}
+.menu{
+    width: 900px;
+    margin: 30px auto; /* Se colocar auto, ele vai centralizar */
+    text-align: center;
+}
+/* Aqui seria o modo de apenas mexer apenas em uma tag*/
+.menu > a{
+    color: red;
+    font-size: 20px;
+    margin: 0 10px;
+    border-right: 3px solid green; 
+    padding-right: 8px;
+}
+

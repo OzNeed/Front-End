@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.artigo{
+    width: 1280px;
+    background-color: black;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.artigo h1{
+    color: rgb(66, 149, 244);
+    font-size: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal; /* Estilo da fonte*/
+    font-weight: normal; /* para deixar em negrito */
+    /*font-variant: small-caps;*/
+}
+
+.artigo p{
+    font-size: 17px;
+    text-align: left;
+    font-family: tahoma;
+    font-style: normal;
+    font-weight: bold;
+    color: #b4b4b4;
+    line-height: 40px;/* Para quebra de linha*/
+    margin-top: 12px;
+}

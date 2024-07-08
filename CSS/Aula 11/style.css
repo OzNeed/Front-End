@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+.center{
+    box-sizing: border-box;/*Para que seja dentro da box, vai subtrair o valor do padding, dando o valor. Caso não tem o box-sizing ele vai aumentar*/
+    width: 1280px;
+    margin: 0 auto;
+    /* padding-left: 30px ; */
+    background-color: gray;
+}
+
+.artigo{
+    /* o outline ele vai aumentar para fora do elemento primário */
+    outline: 3px solid blue;
+    /* border-style: dotted;
+    border-width: 3px;
+    border-color: rgb(255, 0, 0); */
+    /* para colocar o lado que deseja e só inserir o "-" e o lado que deseja top,left,bottom,right */
+    /* border: 3px dotted rgb(255, 0, 0); */
+    vertical-align: top;
+    /* Quando colola inline-block ele coloca uma margin-right de 4px, sempre tem que colocar um elemento com -4px */
+    display: inline-block;
+    margin-right: -4px;
+    margin-top: 30px;
+    width: 640px;
+}

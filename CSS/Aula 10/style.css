@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+.center{
+    box-sizing: border-box;/*Para que seja dentro da box, vai subtrair o valor do padding, dando o valor. Caso não tem o box-sizing ele vai aumentar*/
+    width: 1280px;
+    margin: 0 auto;
+    /* padding-left: 30px ; */
+    background-color: gray;
+    padding: 30px;
+}
+
+.artigo{
+    width: 1280px;
+    margin-bottom: 40px;
+}

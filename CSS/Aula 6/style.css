@@ -4,10 +4,14 @@
     box-sizing: border-box;
 }
 
+html,body{
+    height: 100%;
+}
+
 .artigo{
-    width: 1280px;
+    width: 4%;
+    /* height: auto; Para texto sempre tem que colocar auto, pois sempre vai passa do que foi inserido como altura maxima */
     background-color: black;
-    margin: 40px auto;
     text-align: center;
     font-family: tahoma;
 }
@@ -15,7 +19,6 @@
 .artigo h1{
     color: rgb(66, 149, 244);
     font-size: 23px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal; /* Estilo da fonte*/
     font-weight: normal; /* para deixar em negrito */
     /*font-variant: small-caps;*/
@@ -24,7 +27,6 @@
 .artigo p{
     font-size: 17px;
     text-align: left;
-    font-family: tahoma;
     font-style: normal;
     font-weight: bold;
     color: #b4b4b4;

@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+/* .header{
+    width: 100%;
+    min-width: 1280px;
+    height: 200px;
+    background-color: gray;
+} */
+
+/* A prioridade sempre e min, após e o máximo e depois a height*/
+.article{
+    margin: 0 auto;
+    width: 1280px;
+    height: 200%;
+    max-height: 20%;
+    min-height: 50%;
+    background-color: red;
+}

@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+.pai{
+    width: 1280px;
+    padding: 20px 0;
+    background-color: blue;
+}
+
+.child{
+    width: 640px;
+    height: 300px;
+    background-color: red;
+    float:left
+}

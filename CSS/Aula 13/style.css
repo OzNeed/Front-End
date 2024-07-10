@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    height:100% ;
+}
+
+.box, .box2{
+    width: 300px;
+    margin: auto;
+    background-color: gray;
+    /* overflow-x: hidden;
+    overflow-x: hidden; */
+}
+
+.box p, .box2 p{
+     width: 100%;
+}
+
+.box2{
+    background-color: red;
+    margin-top: 20px;
+    display: block;
+}

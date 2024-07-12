@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, html{
+    height: 100%;
+}
+/* O inherit, ele serve para herda o valor do elemento pai*/
+/* O initial, serve para resetar o valor e usar o padrão do navegador */
+.box{
+    width: 400px;
+    height: auto;
+    color: gray
+}
+
+.box p{
+    color: initial;
+    margin: initial;
+    /* display: inline-block; */
+    /* width: inherit;
+    height: inherit;
+    background: inherit; */
+}

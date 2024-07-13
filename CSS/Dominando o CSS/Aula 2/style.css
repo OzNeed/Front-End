@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+.text[type="text"]{
+    background-color: green;
+}
+input[type="submit"]{
+    background-color: aqua;
+}
+
+/* Aqui irá atacar os elementos que contém o link entre aspas */
+/* a[href="http://www.google.com"]{
+    background-color: yellow;
+} */
+
+/* [href="http://www.google.com"]{
+    background-color: red;
+} */
+
+/* Vai atacar todos os link que possuem vinculação com a palavra entre aspas */
+/* a[href*="google"], a[href*="youtube"]{
+    background-color: blue;
+} */
+
+/* A palavra tem que está igual ao descrito entre aspas em qualquer lugar*/
+/* a[attr~="google"]{
+    background-color: blue;
+} */
+
+/* Só funciona quando no elemento, a primeira palavra está igual entre as aspas */
+/* a[attr|="google"]{
+    background-color: yellow;
+} */
+
+
+/* Quando começamos com a palavra entre aspas */
+/* a[attr^="google"]{
+    background-color: aqua;
+} */
+
+
+/* Para quando termina com a palavra entre aspas */
+/* a[attr$="yahoo"]{
+    background-color: blueviolet;
+} */
+

@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+/* .table1{
+    width: 900px;
+    border-collapse: collapse; Para colidir e virar uma borda só
+    margin: 0 auto;
+}
+ 
+table tr td{
+    background-color: rgb(200, 200, 200);
+    height: 300px;
+    vertical-align: bottom;
+    border: 3px solid black;
+} */
+
+/* position: fixed, vai deixar o elemento travado idependete do tamanho da página */
+/* position: absolute, ele vai deixar o elemento de acordo com o tamanho da página */
+/* position: relative, ele vai mexer de acordo onde está no documento principal */
+/* position: static, ele e o default, que não permiti ter as memas opções como os outros */
+.menu-fix{
+    position: static; /*fixed; absolute; fix;*/
+    left: 40px;
+    top: 50px;
+    /* position: fixed;
+    right: 40px;
+    bottom: 40px; */
+    width: 300px;
+    height: 200px;
+    background: #069;
+}
+
+.box{
+    width: 400px;
+    height: 500px;
+    background: green;
+}
+
+.box p{
+    width: 300px;
+}

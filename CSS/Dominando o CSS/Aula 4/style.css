@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+.bg{
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+
+    background-color: aqua;
+    background-image: url('imagem/92eaac8133eb7bd2498bf4a7ab32fc13.jpg');
+    background-size: cover;/*Ele vai cobrir todos os aspectos com base com os tamanhos */
+    /* altura e largura */
+    background-position: 50% 50%; /* Se usar o  background-size: cover, o elemento position não funciona*/
+    background-repeat: no-repeat; /* no-repeat, para não repetir e repeat x e y, e de acordo com o eixo */
+}

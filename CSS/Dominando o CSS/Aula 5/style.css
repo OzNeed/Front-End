@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+}
+.bg{
+    /*
+    width: 500px;
+    margin: 0 auto;
+    height: 400px;
+    background-color: blue;
+    background-image: url(Image/3_cyber.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    /* Ele faz com que você fixe algo na página e outros elementos vai sobreponde ele utilizando o fixed */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -10% 0;Quando aplica o valor negativo ele invés de ir para a esquerda, vai criar uma borda na esquerda e a imagen vai para a direita */
+}
+/* text-align, todos os itens que tem texto ele vai ser centralizado */
+.box{
+    width: 100%;
+    margin: 80px auto;
+    text-align: center;
+    background-color: brown;
+}
+
+.item{
+    width: 100%;
+    display: inline-block;
+}
+
+.item img{
+    width: 15%;
+}
+
+.item p{
+    background-color: blueviolet;
+    display: inline-block;
+    text-align: left;
+}
+
+.last{
+    margin-right: 0;
+}

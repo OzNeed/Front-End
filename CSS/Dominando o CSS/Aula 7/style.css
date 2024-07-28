@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+}
+/* 
+ul{
+    list-style-position: inside;
+} */
+/* Atacar o elemento dentro de outro sem atacar todas, e esse elemento ele faz com que ataque pelo elemento como no exemplo o li, se colocar outros elementos ele vai continuar com a cor vermelho */
+/* ul li:nth-of-type(2){
+    color: red;
+} */
+/* Nesse caso, irá atacar o terceiro elemento filho do elemento principal */
+/* ul li:nth-child(3){
+    color: blue;
+} */
+
+.box > div{
+    box-sizing: border-box;
+    float:left;
+   width: 33.3%;
+   height: 400px;
+   background-color: red;
+   border: 1px solid black  ; 
+}
+
+/* Para atacar o último elemento filho */
+/* .box div:last-of-type, .box p:last-of-type{
+    background-color: green;
+} */
+
+/* Podemos utilizar para atacar um elemento filho e após isso atacar um elemento que está dentro dele referenciando após */
+/* .box div:last-of-type p{
+    color: rgba(255, 255, 255, 1);
+} */
+/* Ele vai atacar o último direto */
+/* .box div:last-child p{
+    color: rgba(255, 255, 255, 1);
+} */
+
+/* Negação de alguma classe, para não editar o estilo    */
+
+/* .box div:not(.one){
+    background-color: blueviolet;
+} */
+
+/* Ataca os elementos que está vazios */
+/* p:empty{
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+} */
+
+
+/* Esse elemento e para aplicar no final do elemento algo que deseja */
+/* .p::after{
+    content: "Bruno";
+    background-color: red;
+} */
+/* Para aplicar antes do elemento */
+.p::before{
+    content: "Bruno";
+    background-color: red;
+}

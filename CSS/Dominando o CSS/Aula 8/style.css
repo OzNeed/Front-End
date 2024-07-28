@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+.parent{
+    background-color: aqua;
+    width: 100%;
+    padding: 90px 0;
+    text-align: center;
+}
+
+.item{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    margin: 20px 0;
+}
+/* Ao colocar dentro do parenteses um (2n) ele vai pular acada dois pular o valor e aplicar o valor que inseriu e sempre começa do primeiro e vai afetar todos*/
+/* Nesse exemplo abaixo e para atacar um elemento filho e dentro ele pode está atacando o elemento neto */
+/* .parent div:nth-of-type(3n + 1) div.item{
+    background-color: red;
+} */
+
+/* .parent div:last-child div.item{
+    background-color: purple;
+} */
+
+/* Ele pega o primeiro elemento, idependete da posição */
+/* .parent p:first-of-type{
+    color: brown;
+} */
+/* Nesse caso ele só vai afetar o elemento que indicou se estiver na primeira posição obrigatoriamente */
+.parent p:first-child{
+    color: orange;
+}

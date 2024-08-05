@@ -11,7 +11,52 @@
                 <legend>Meu formulário</legend>
                 <div><input type="text" name="nome" placeholder="Digite o seu nome"></div>
                 <div><input type="text" name="e-mail" placeholder="Digite o seu e-mail"></div>
-
+                <div>
+                    <select name="lista">
+                        <!-- o disabled e select e para desativar a primaira opção, que se trata do nome do seletor -->
+                        <option disabled selected>Qual a sua idade ?</option>
+                        <option>10</option>
+                        <option>25+</option>
+                        <option>40+</option>
+                    </select>
+                </div>
+                <h2>Qual sua cidade</h2>
+                <!-- no radio tem que colocar o "name" para identificar qual classe e o botão e não permitir que aperte mais que um -->
+                <div class="input">
+                    <div>
+                        <input type="radio" name="cidade" value="São Paulo"><span>São Paulo</span>
+                    </div>
+                    <div>
+                        <input type="radio" name="cidade" value="Florianópolis"><span>Florianópolis</span>
+                    </div>
+                    <div>    
+                        <input type="radio" name="cidade" value="Minas Gerais"><span>Minas Gerais</span>
+                    </div>
+                    <div>    
+                        <input type="radio" name="cidade" value="Rio de Janeiro"><span>Rio de Janeiro</span>
+                    </div>
+                </div>
+                <h2>O que você gosta de comer?</h2>
+                <div class="input">
+                    <div>
+                        <input type="checkbox" name="comida" value="Fruta"><span>Fruta</span>
+                    </div>
+                    <div>    
+                        <input type="checkbox" name="comida" value="fast food"><span>fast food</span>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="comida" value="Pizza"><span>Pizza</span>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="comida" value="salada"><span>salada</span>
+                    </div>
+                </div>
+                <div>
+                    <textarea name="observacao" placeholder="Possui alguma observação ?"></textarea>
+                </div>
+                <div>
+                    <input type="submit" name="acao" value="Enviar">
+                </div>
             </fieldset>
         </form>
     </body>

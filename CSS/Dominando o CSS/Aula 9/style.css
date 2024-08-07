@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+/* input[type=file]{
+    display: none;
+}
+
+label{
+    display: block;
+    margin: 40px auto;
+    cursor: pointer;
+    font-size: 17px;
+    width: 220px;
+    height: 40px;
+    background-color: #ccc;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+} */
+
+form{
+    text-align: center;
+    background-color: #ccc;
+    padding: 30px 0;
+}
+
+/* form select{
+    width: 220px;
+    height: 40px;
+    border: 0;
+    padding-left: 10px;
+    background-image: url(./Imagen.png);
+    background-size: 40px 20px;
+    background-repeat: no-repeat;
+    background-position: 96% 8px;
+    appearance: none;
+    -webkit-appearance: none; /*chrome*/
+    /*-moz-appearance: none; /*Mozilla
+}*/
+
+/*select::-ms-appearance{
+    display: none;/*explore
+}*/
+
+input[type=checkbox]{
+    display: none;
+}
+label{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: green;
+}
+/* Quando coloca o sinal do mais ele e para referenciar o elemento o próximo do indicado, nesse caso quando a checkbox for selecionado ele vai atacar o próximo elemento */
+input[type=checkbox]:checked + label{
+    background-color: red;
+}

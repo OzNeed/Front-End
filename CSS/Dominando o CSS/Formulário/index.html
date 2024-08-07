@@ -15,9 +15,9 @@
                     <select name="lista">
                         <!-- o disabled e select e para desativar a primaira opção, que se trata do nome do seletor -->
                         <option disabled selected>Qual a sua idade ?</option>
-                        <option>10</option>
-                        <option>25+</option>
-                        <option>40+</option>
+                        <option value="10">10</option>
+                        <option value="25+">25+</option>
+                        <option value="40+">40+</option>
                     </select>
                 </div>
                 <h2>Qual sua cidade</h2>
@@ -39,17 +39,18 @@
                 <h2>O que você gosta de comer?</h2>
                 <div class="input">
                     <div>
-                        <input type="checkbox" name="comida" value="Fruta"><span>Fruta</span>
+                        <input type="checkbox" name="comida[]" value="Fruta"><span>Fruta</span>
                     </div>
                     <div>    
-                        <input type="checkbox" name="comida" value="fast food"><span>fast food</span>
+                        <input type="checkbox" name="comida[]" value="fast food"><span>fast food</span>
                     </div>
                     <div>
-                        <input type="checkbox" name="comida" value="Pizza"><span>Pizza</span>
+                        <input type="checkbox" name="comida[]" value="Pizza"><span>Pizza</span>
                     </div>
                     <div>
-                        <input type="checkbox" name="comida" value="salada"><span>salada</span>
+                        <input type="checkbox" name="comida[]" value="salada"><span>salada</span>
                     </div>
+                    <!-- No caso de checkbox, no atributo "name" tem que colocar [] após o nome para o código entender que e mais de uma opção selecionada. -->
                 </div>
                 <div>
                     <textarea name="observacao" placeholder="Possui alguma observação ?"></textarea>

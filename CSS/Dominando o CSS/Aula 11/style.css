@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+minhatag{
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+minhatag.tag_especial[tag=one]{
+    background-color: green;
+    width: 200px;
+    height: 300px;
+}

@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: "Open-Sans";
+    src: url(./Font/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+html, body{
+    height: 100%;
+    font-family: "Open-Sans";
+}
+
+/* Se especificar e colocar o "*", serve para pegar todos os elementos dentro de algum formulário como exemplo */
+form > *{
+    font-family: Open-Sans;
+}
+
+/* #teste1{
+    font-family: "Open Sans";
+} */
+
+/* para importar uma fonte com o arquivo dela */
+
+
+/* #teste2{
+    font-family: "Minha fonte";
+} */
+
+/* .box p{
+    font-family: "Open-Sans";
+}
+
+p{
+    font-family: tahoma !important;
+} */
+
+/* quando e utilizado o !important, o nivel de especificação deixa de existir. No caso se todos tiver essa informação, o que estiver mais especificadovai prevalecer */

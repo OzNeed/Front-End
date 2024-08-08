@@ -46,8 +46,8 @@ section.sobre{
 
 .extra{
     position: absolute;
-    bottom: -450px;
-    right: -500px;
+    bottom: -550px;
+    right: -600px;
     width: 1200px;
     height: 1200px;
     border-radius: 50%;
@@ -75,6 +75,7 @@ section.sobre{
 }
 
 .texto-sobre p{
+    width: 700px;
     margin: 20px 0;
     color: black;
     font-size: 14px
@@ -91,8 +92,14 @@ section.sobre{
 }
 
 .rodape{
-    display: inline;
+    display: flex;
+    flex-direction: row;
     width: 20px;
     margin: 0 auto;
-    text-align: center;
+}
+
+.rodape img{
+    width: 70px;
+    margin-right: auto;
+    margin-left: auto;
 }

@@ -7,13 +7,16 @@ html, body{
     width: 100%;
     margin: 0;
 }
-
+.clear{
+    clear: both;
+}
 .center{
     width: 1280px;
     margin: 0 auto;
 }
 
 .header{
+    min-width: 1200px;
     width: 100%;
     height: 80px;
     background-color: black;
@@ -97,4 +100,45 @@ html, body{
     height: 250px;
     background-image: url('./Imagens/baix.png');
     background-size: 100% 100%;
+}
+
+.section-1{
+    padding: 90px 0;
+}
+
+.section-1 h2{
+    text-align: center;
+    font-weight: normal;
+}
+.container-section{
+    margin-top: 40px;
+}
+.container-section{
+    text-align: center;
+}
+
+.container-single{
+    float: left;
+    width: 33.333%;
+}
+
+.container-single p{
+    text-align: justify;
+    padding: 30px;
+}
+
+.container-single > div > img{
+    width: 25%;
+}
+
+.footer{
+    /*clear: both;*/
+    border-top: 2px solid black;
+    padding: 20px 0;
+    text-align: center;
+    color: #888;
+}
+
+.footer p{
+    margin-top: 8px;
 }
